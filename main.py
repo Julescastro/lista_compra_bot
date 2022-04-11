@@ -77,24 +77,3 @@ updater.start_polling()
 updater.idle()
 
 
-
-
-
-'''
-while True:
-    menu = input('opcion: ')
-
-    if menu == '1':
-        añadirArticulo()
-    elif menu == '2':
-        listarArticulo()
-        continue
-    else:
-        pprint("opcion invalida") 
-
-
-'''
-
-
-
-
